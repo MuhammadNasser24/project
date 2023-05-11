@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+  background-size: cover;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  color: #333;
+  font-size: 48px;
+  margin: 0;
+  animation: moveInTop 1s ease-out;
+}
+
+h2 {
+  color: #555;
+  font-size: 24px;
+  margin: 0;
+  animation: moveInBottom 1s ease-out;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #eee;
+  margin: 20px 0;
+}
+
+.summary {
+  margin: 20px 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin: 5px 0;
+  color: #555;
+}
+
+@keyframes moveInTop {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes moveInBottom {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+    </style>
+    {{show}}
+    <meta charset="UTF-8">
+    <title>Muhammad Nasser's Short CV</title>
+    
+  </head>
+  <body>
+    <div class="container">
+      <h1>Muhammad Nasser</h1>
+      <h2>DevOps Engineer</h2>
+      <hr>
+      <div class="summary">
+        <p>Email: mohamed.nhassan20@gmail.com</p>
+        <p>Phone: +2001144079908</p>
+        <p>Degree: Bachelor of Management Information System</p>
+        <ul><h3>Skills</h3>
+          <li>CCNA</li>
+          <li>CCNP</li>
+          <li>C++</li>
+          <li>Python</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Wordpress</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
