@@ -1,1 +1,1 @@
-# Django vreating app descripe my CV (HTML site)
+# Django Creating app descripe my CV (HTML site)
